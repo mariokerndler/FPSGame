@@ -8,7 +8,6 @@ using UnityEngine;
 public enum ServerPackets
 {
     welcome = 1,
-    udpTest,
     spawnPlayer,
     playerPosition,
     playerRotation
@@ -18,7 +17,6 @@ public enum ServerPackets
 public enum ClientPackets
 {
     welcomeReceived = 1,
-    udpTestReceived,
     playerMovement
 }
 
